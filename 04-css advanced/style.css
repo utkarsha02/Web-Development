@@ -1,0 +1,92 @@
+div {
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 30pt;
+    transition: 2s;
+    /* common to all */
+  }
+  
+  /* div:nth child selects a particular div eg 2n+1 th selects all odd elements */
+  div:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  
+  div:nth-child(2) {
+    transform: rotateY(45deg);
+    /* transform: rotateX(45deg); */
+    /* moves top behind and bottom up */
+  }
+  
+  div:nth-child(3) {
+    transform: scaleX(0.67);
+    /* makes div along X axis stretch */
+  }
+  
+  div:nth-child(4) {
+    transform: skewX(10deg);
+    /* gives a shape of parallelogram where ||l sides are smeered  */
+  }
+  
+  div:nth-child(5):hover {
+    transform: rotateZ(360deg);
+    /* moves round and round */
+  }
+  
+  /* upcoming lines hold imp concept of cursor hover effect and diff between margin change and transform */
+  div:nth-child(6):hover {
+    transform: translateY(100px);
+  }
+  
+  div:nth-child(7):hover {
+    margin-top: 130px;
+  }
+  
+  div:nth-child(8):hover {
+    transform: rotateZ(360deg) translateX(100px);
+  }
+
+  div:nth-child(10):hover{
+      transform: translateX(100px) rotateZ(360deg);
+  }
+  
+  @keyframes wheel{
+      0%{
+      }
+      25% {
+        transform: scale(2) rotateZ(180deg);
+      }
+      50%{
+          transform: translateX(100px) rotateZ(360deg);
+      }
+      75%{
+          transform: scale(0.5) rotateZ(360deg);
+      }
+      100%{
+          background-color: blueviolet;
+      }
+  }
+  div:nth-child(9) {
+    animation-name: wheel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* @keyframes wheel {
+    0% {
+    }
+    25% {
+      transform: scale(2) rotateZ(180deg);
+    }
+    50% {
+      transform: translateX(100px) rotateZ(360deg);
+    }
+    75% {
+      transform: scale(0.5) rotateZ(180deg);
+    }
+    100% {
+    }
+  } */
