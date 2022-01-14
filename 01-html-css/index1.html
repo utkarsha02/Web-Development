@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p {
+      color: red;
+      font-style: italic;
+    }
+
+    div {
+      color: blue !important;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <!-- latest order of appearance gets priority -->
+  <!-- important makes the previous element have more priority than the next one unless the next one also has !important -->
+  <!-- html code rendered top to bottom -->
+
+</head>
+
+<body>
+  <p>para 1</p>
+  <p>para 2</p>
+  <p>para 3</p>
+  <p>para 4</p>
+  <div>div 1</div>
+  <div>div 2</div>
+  <div>div 3</div>
+  <div>div 4</div>
+
+
+<ol>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+</ol>
+
+<ol type="A">
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+</ol>
+
+<ol type="i">
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+</ol>
+
+
+<ul type="circle">
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+</ul>
+
+<ul type="square">
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+</ul>
+
+<ul>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+  <li>aidgf</li>
+</ul>
+
+<h4>Nested Lists</h4>
+
+<ol>
+  <li>one
+    <ol type="a">
+      <li>one point one</li>
+      <li>one point two</li>
+    </ol>
+  </li>
+  <li>two</li>
+  <li>three</li>
+</ol>
+
+<ol>
+  <li>one
+    <ol type = "a">
+      <li>1.1</li>
+      <li>1.2</li>
+      <ol type = "a">
+        <li>1.2.1</li>
+        <li>1.2.2</li>
+      </ol>
+      <li>1.3</li>
+    </ol>
+  </li>
+  <li>two
+    <ol type = "a">
+      <li>2.1</li>
+      <ol type = "a">
+        <li>2.1.1</li>
+        <li>2.2.2</li>
+      </ol>
+      <li>2.2</li>
+      <li>2.3</li>
+    </ol>
+  </li>
+  <li>three</li>
+  <li>four</li>
+</ol>
+
+<h3> Form Elements </h3>
+
+<input>
+<input type="password">
+<input type="email" placeholder="me@mail.com">
+<input type="number">
+<input type="number" min="100" max="200">
+<input type="date">
+<input type="color"> <br>
+
+<input type="checkbox"> A <br>
+<input type="checkbox"> B <br>
+<input type="checkbox"> C <br>
+
+<input name="subject" type="radio"> A <br>
+<input name="subject" type="radio"> B <br>
+<input name="subject" type="radio"> C <br>
+
+<input name="fruit" type="radio"> Apple <br>
+<input name="fruit" type="radio"> Banana <br>
+<input name="fruit" type="radio"> Chikoo <br>
+
+<h5>Google Search</h5>
+<form action="https://google.com/search" method="GET">
+  <input name="q" placeholder="search query">
+  <button type="submit">Search</button>
+</form>
+
+<div class="outer">
+  <div>
+    <p class="inner">Hello gals</p>
+  </div>
+</div>
+
+
+</html>
+</body>

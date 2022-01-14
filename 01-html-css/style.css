@@ -1,0 +1,45 @@
+div{
+    font-size: 30pt;
+    color: green !important;
+}
+
+ol li:hover ol{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+li li {
+    height: 0;
+    visibility: hidden;
+  }
+  
+  li:hover > * > li {
+    height: auto;
+    visibility: visible;
+  }
+
+  .right {
+    text-align: right;
+  }
+  
+  #two {
+    color: red;
+  }
+  
+  .small {
+    font-size: 7pt;
+  }
+  
+  .outer > .inner {
+    background-color: aqua;
+  }
+  
+  div + p {
+    color: green;
+  }
+  
+  div ~ p {
+    /* font-weight: bold; */
+    color: red;
+  }
