@@ -30,5 +30,7 @@ p:hover{
 p:active{
     box-shadow: 2px 2px 2px black; 
     transform: translateY(2px) translateX(2px);
+    transition: 1.25s;
+    /* feedback for customer - if button pressed shldnt be too fast or too slow bcx it des not feel natural */
 }
 
