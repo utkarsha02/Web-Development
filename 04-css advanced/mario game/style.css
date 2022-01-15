@@ -1,0 +1,42 @@
+.outer{
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+}
+
+.outer:active .in1{
+    animation: movex 5000ms linear infinite;
+}
+
+.in1{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 250px 2px;
+    display: inline-block;
+}
+
+.in2{
+    background-color: red;
+    margin: 2px 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2000ms; */
+}
+
+@keyframes move{
+    50%{
+        transform: translateY(-500px);
+    }
+
+}
+
+@keyframes movex {
+    40%{
+        transform: translateX(550px);
+    }
+}
