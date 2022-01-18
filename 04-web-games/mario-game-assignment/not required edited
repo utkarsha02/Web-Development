@@ -1,0 +1,49 @@
+// function updateGameState(){
+//     enemy.y += enemy.vely;
+//     if(enemy.y + enemy.h > gamebox.height){
+//         enemy.vely = -6;
+//     }
+//     else if(enemy.y< 0){
+//         enemy.vely = 6;
+//     } 
+// }
+
+// function updateGameState2(){
+//     enemy2.y += enemy2.vely;
+//     if(enemy2.y + enemy2.h > gamebox.height){
+//         enemy2.vely = -7;
+//     }
+//     else if(enemy2.y< 0){
+//         enemy2.vely = 7;
+//     } 
+// }
+
+// function updateGameState4(){
+//     enemy4.y += enemy4.vely;
+//     if(enemy4.y + enemy4.h > gamebox.height){
+//         enemy4.vely = -5;
+//     }
+//     else if(enemy4.y< 0){
+//         enemy4.vely = 5;
+//     } 
+// }
+
+// function updateGameState5(){
+//     enemy5.y += enemy5.vely;
+//     if(enemy5.y + enemy5.h > gamebox.height){
+//         enemy5.vely = -9;
+//     }
+//     else if(enemy5.y< 0){
+//         enemy5.vely = 9;
+//     } 
+// }
+
+// function updateGameState3(){
+//     enemy3.y += enemy3.vely;
+//     if(enemy3.y + enemy3.h > gamebox.height){
+//         enemy3.vely = -8;
+//     }
+//     else if(enemy3.y< 0){
+//         enemy3.vely = 8;
+//     } 
+// }

@@ -21,8 +21,8 @@ let player = {
     y: 175,
     h: 50,
     w: 50,
-    vx: 0,
-    vy: 1
+    vx: 1,
+    vy: 0
 }
 
 function drawBox(box){
@@ -56,4 +56,3 @@ function updateGame(){
 }
 
 updateGame();
-// drawBox(player);
